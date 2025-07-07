@@ -1,0 +1,8 @@
+# Ignore the content folder
+/content/
+
+# Ignore vendor dependencies
+/vendor/
+
+# Ignore environment files
+.env
