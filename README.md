@@ -1,5 +1,7 @@
 Icon: fa-desktop
+
 Description: CMS open Source
+
 GitHub: https://github.com/Lhorath/SUPERSLIMCMS/
 
 # Simple PHP CMS
