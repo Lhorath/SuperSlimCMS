@@ -4,6 +4,8 @@ Description: CMS open Source
 
 GitHub: https://github.com/Lhorath/SUPERSLIMCMS/
 
+Live: http://sscms.nerdygamertools.com/
+
 # Simple PHP CMS
 
 * [Introduction](#introduction)
