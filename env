@@ -20,7 +20,9 @@
 # APP
 #--------------------------------------------------------------------
 
-# app.baseURL = ''
+# Production (deploy): http://superslimcms.dackdns.ddns.net/
+# Local CodeIgniter (php spark serve): http://localhost:8080/
+# app.baseURL = 'http://superslimcms.dackdns.ddns.net/'
 # If you have trouble with `.`, you could also use `_`.
 # app_baseURL = ''
 # app.forceGlobalSecureRequests = false

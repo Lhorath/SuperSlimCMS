@@ -1,5 +1,12 @@
+# Simple CMS front controller (root index.php). Document root should be the
+# project folder that contains this file, e.g. D:\GitHub\SuperSlimCMS on Windows
+# or the deployed path for http://superslimcms.dackdns.ddns.net/
+DirectoryIndex index.php
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    RewriteBase /
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php?page=$1 [L,QSA]
