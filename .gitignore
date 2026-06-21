@@ -1,8 +1,27 @@
-# Ignore the content folder
+# CMS content (managed locally; not version-controlled)
 /content/
 
-# Ignore vendor dependencies
+# Dependencies
 /vendor/
 
-# Ignore environment files
+# Environment and secrets
 .env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+.AppleDouble
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~

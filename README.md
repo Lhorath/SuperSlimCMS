@@ -6,51 +6,31 @@ GitHub: https://github.com/Lhorath/SUPERSLIMCMS/
 
 Live: http://sscms.nerdygamertools.com/
 
-# Simple PHP CMS
+# SuperSlimCMS
 
-* [Introduction](#introduction)
-* [Requirements](#requirements)
-* [Install](#install)
-* [Reporting issues](#reporting-issues)
-* [Submitting fixes](#submitting-fixes)
-* [License](#license)
-* [Authors & Contributors](#authors--contributors)
-* [Links](#links)
+> Lightweight, file-based PHP Content Management System — no database required.
 
-## Introduction
+## Overview
 
-Simple PHP CMS is a lightweight, file-based Content Management System. It is designed to be easy to set up and use without a database.
-
-It is open source; community involvement is encouraged via pull requests.
+SuperSlimCMS is a minimal PHP CMS designed for easy setup and use without a database backend. Content is managed through files, and the system is open source — community pull requests are encouraged.
 
 ## Requirements
 
-* PHP 5.6 or higher
-* A web server (Apache, Nginx, etc.)
+- PHP 5.6 or higher
+- A web server (Apache, Nginx, etc.)
 
-## Install
+## Setup
 
-1. **Download the code:** Place `index.php` in a folder on your web server.
-2. **Create a `content` folder** beside `index.php`.
-3. **Set the admin password:** In `index.php`, set the `ADMIN_PASSWORD` constant to a strong secret.
+1. Place `index.php` in a folder on your web server.
+2. Create a `content/` folder beside `index.php`.
+3. In `index.php`, set the `ADMIN_PASSWORD` constant to a strong secret.
 
-## Reporting issues
+## Contributing
 
-Use the [GitHub issue tracker](https://github.com/Lhorath/SUPERSLIMCMS/issues). Check for duplicates first.
-
-## Submitting fixes
-
-Submit pull requests on GitHub.
+- **Bug reports:** Use the [GitHub issue tracker](https://github.com/Lhorath/SUPERSLIMCMS/issues). Check for duplicates first.
+- **Fixes:** Submit pull requests on GitHub.
 
 ## License
 
-[MIT](LICENSE).
-
-## Authors & Contributors
-
-See the GitHub repository for contributor history.
-
-## Links
-
-* [Website](https://nerdygamertools.com/)
-* [GitHub Repository](https://github.com/Lhorath/SUPERSLIMCMS/)
+MIT — see [LICENSE](LICENSE).  
+Copyright © 2026 [MacWeb Canada](https://macweb.ca) | Professional Online Solutions.
